@@ -1,0 +1,30 @@
+{
+  "name": "loopbusy",
+  "version": "1.0.0",
+  "description": "Middleware to send 503s and keep your server alive when it's too busy to queue more requests",
+  "keywords": [
+    "503",
+    "busy",
+    "toobusy",
+    "lag",
+    "loop",
+    "production",
+    "middleware",
+    "express"
+  ],
+  "main": "loopbusy.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Hunter Loftis <hunter@hunterloftis.com>",
+  "license": "MIT",
+  "dependencies": {
+    "event-loop-lag": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "express": "^4.8.7",
+    "mocha": "^1.21.4",
+    "supertest": "^0.13.0"
+  }
+}
