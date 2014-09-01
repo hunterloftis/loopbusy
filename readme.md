@@ -24,6 +24,10 @@ instead of falling over for all users.
 
 ## Options
 
+```js
+loopbusy(maxLag, pollingInterval);
+```
+
 ### Max Lag
 
 ```js
