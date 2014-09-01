@@ -12,9 +12,15 @@
     "middleware",
     "express"
   ],
+  "repository": "hunterloftis/loopbusy",
+  "homepage": "https://github.com/hunterloftis/loopbusy",
+  "bugs": "https://github.com/hunterloftis/loopbusy/issues",
   "main": "loopbusy.js",
   "scripts": {
     "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
   },
   "author": "Hunter Loftis <hunter@hunterloftis.com>",
   "license": "MIT",
