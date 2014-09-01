@@ -18,7 +18,7 @@ app
 Loopbusy uses the [event-loop-lag](https://github.com/pebble/event-loop-lag)
 module to determine when the event loop is piling up requests.
 
-When the requests pass a threshold, loopbusy passes 503 errors
+When lag passes a threshold, loopbusy passes 503 errors
 to your middleware stack so your app can stay alive for some users
 instead of falling over for all users.
 
